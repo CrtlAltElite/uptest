@@ -1,0 +1,13 @@
+1. read the first letter last name on the first folder
+2. check to see if a pile with that first letter has been made:
+    - if its made we will add the file to that pile
+    - if not make we will create a new pile for that letter
+3. Repeat Steps 1 and 2 for every folder we have
+4. Look at the second letter and the following letter of the last name and in that letter pile
+    - start at the top of the pile
+    - compare the last sorted name to the next folder name
+        a. if the next folder name second letter is closer a than the first we will move that folder to the top and move on
+        b. if its not then leave that second folder in position and move on
+        c. if the letters are the same then we start left name and then sort by the first leter thans different
+        repeat steps a-c until we are sorted 
+5. stack all the piles in order from A-z starting with A on Top
